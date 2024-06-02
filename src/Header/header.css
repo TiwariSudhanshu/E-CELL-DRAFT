@@ -4,10 +4,7 @@
     align-items: center;
     border-bottom: 2px solid lightgray;
     box-shadow: 0px 6px 8px lightgray;
-    /* position: sticky;
-    top: 0;
-    z-index: 99; */
-
+    width: 100vmax;
 }
 #header-logo{
     height: 8vmax;
@@ -48,4 +45,18 @@ ul span{
 #home-link:hover{
     border: 2px solid #1266f1;
     border-radius: 5px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width:900px){
+    .bt1{
+        height: 5vmax;
+        width: 13max;
+    }
+}
+@media screen and (max-width:500px){
+    .header-tab{
+        width: 100vmax;
+    }
 }

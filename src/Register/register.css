@@ -77,3 +77,14 @@ select:focus {
     cursor: pointer;
 
 }
+
+/* Responsive design */
+
+@media screen and (max-width:1200px){
+    .bt2{
+        height: 5vmax;
+    }
+    .dropdown select{
+        height: 4vmax;
+    }
+}

@@ -1,3 +1,4 @@
+import Footer from "../Footer/footer"
 import Header from "../Header/header"
 import "./register.css"
 
@@ -71,6 +72,7 @@ function Register() {
             </div>
     </form>
     </div>
+    <Footer/>
     </>
   )
 }

@@ -1,6 +1,7 @@
 .header-tab{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-bottom: 2px solid lightgray;
     box-shadow: 0px 6px 8px lightgray;
     /* position: sticky;
@@ -20,4 +21,31 @@ ul span{
     margin: 30px;
     text-decoration: none;
     color: black;
+}
+
+.bt1{
+    height: 2.5vmax;
+    width: 10vmax;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 6px 10px lightgray;
+    background-color: #1266f1;
+    color: white;
+}
+.bt1:hover{
+    background-color: white;
+    color: black;
+}
+#home-link{
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    margin-right: 10vmax;
+    cursor: pointer;
+
+}
+#home-link:hover{
+    border: 2px solid #1266f1;
+    border-radius: 5px;
 }

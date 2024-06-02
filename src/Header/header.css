@@ -1,0 +1,23 @@
+.header-tab{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid lightgray;
+    box-shadow: 0px 6px 8px lightgray;
+    /* position: sticky;
+    top: 0;
+    z-index: 99; */
+
+}
+#header-logo{
+    height: 8vmax;
+    width: 18vmax;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul span{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,79 @@
+#register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vmax;
+    border: 2px solid lightgray;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 8px lightgray;
+}
+.register-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-tab,.write{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+input{
+    height: 2.5vmax;
+    width: 40vmax;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+label{
+    margin-bottom: 10px;
+}
+textarea{
+    height: 120px;
+    width: 40vmax;
+    resize: none;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 2px;
+
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.dropdown label{
+    margin: 20px 0px;
+}
+select {
+    height: 2.5vmax;
+    width: 40vmax;
+    background-color: white;
+    background-size: 12px; 
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff; 
+}
+.toggle{
+    display: flex;
+    margin: 20px 0px;
+}
+.toggle input{
+    height: 1.5vmax;
+    width: 3vmax;
+}
+
+.bt2{
+    height: 3vmax;
+    width: 20vmax;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

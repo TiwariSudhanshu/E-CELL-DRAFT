@@ -7,6 +7,7 @@
     padding: 50px;
     border-radius: 5px;
     box-shadow: 0px 6px 8px lightgray;
+    background-color: rgb(254, 245, 229);
 }
 .register-tab{
     display: flex;
@@ -77,7 +78,24 @@ select:focus {
     cursor: pointer;
 
 }
-
+.bt2:hover{
+    background-color: orange;
+}
+dialog{
+    border-radius: 5px;
+    height: 10vmax;
+    width: 15vmax;
+}
+dialog p{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+dialog button{
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
 /* Responsive design */
 
 @media screen and (max-width:1200px){

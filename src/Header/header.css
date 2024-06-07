@@ -5,6 +5,9 @@
     border-bottom: 2px solid lightgray;
     box-shadow: 0px 6px 8px lightgray;
     width: 100vmax;
+    background-image: url("https://pbs.twimg.com/media/GPDEPjQXkAEfe-u?format=jpg&name=large");
+    margin-left: -10px;
+    margin-top: -10px;
 }
 #header-logo{
     height: 8vmax;
@@ -20,6 +23,7 @@ ul span{
     color: black;
 }
 
+
 .bt1{
     height: 2.5vmax;
     width: 10vmax;
@@ -30,7 +34,7 @@ ul span{
     color: white;
 }
 .bt1:hover{
-    background-color: white;
+    background-color: orange;
     color: black;
 }
 #home-link{
@@ -40,11 +44,18 @@ ul span{
     background-color: white;
     margin-right: 10vmax;
     cursor: pointer;
-
+    /* color: orange; */
+    /* background-color: #1266f1; */
+    /* color: white; */
+    border-radius: 5px;
+    padding: 5px;
+    
 }
 #home-link:hover{
     border: 2px solid #1266f1;
-    border-radius: 5px;
+    background-color: orange;
+    color: black;
+
 }
 
 /* Responsive Design */

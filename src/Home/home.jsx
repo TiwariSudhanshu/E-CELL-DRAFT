@@ -13,12 +13,12 @@ function Home() {
         <h1>From Idea to Empire</h1>
         </div>
         <div className="right">
-        <h2>Speakers : 
+        <h2>Speakers : <br /> 
             <li>Husain Saifi</li>
             <li>Vinay Singhal</li> 
             </h2>
-        <h3><i class="fa-regular fa-calendar-days"></i> Friday 7 June, 2024</h3>
-        <h4><i class="fa-solid fa-location-dot"></i>RGPV Conference Hall</h4>
+        <h3><i class="fa-regular fa-calendar-days"></i> &nbsp;&nbsp;&nbsp;Friday 7 June, 2024</h3>
+        <h4><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPV Conference Hall</h4>
         <Link to = "/register">
         <button className="bt1">Register Now</button>
         </Link>
@@ -62,8 +62,8 @@ function Home() {
         <li>03:10 pm - 03:45 pm: Closing Ceremony and Thank You Note</li>
     </ul>
       </div>
-      <div className="section4">
-        <button class="bt1">Register Now</button>
+      <div className="section4"><Link to = "/register">
+        <button class="bt1">Register Now</button></Link>
       </div>
     </div>
     <Footer/>
